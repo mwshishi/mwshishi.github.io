@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Raluca's Website</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+  <div class="yt-topbar" aria-label="Global music player">
+  <button id="yt-play" class="yt-btn" aria-label="Play">▶</button>
+  <button id="yt-pause" class="yt-btn" aria-label="Pause">⏸</button>
+  <button id="yt-next" class="yt-btn" aria-label="Next">⏭</button>
+  <span id="yt-now">Now playing: press play</span>
+
+  <div id="yt-player" aria-hidden="true"></div>
+</div>
+
+  <div class="layout">
+  <aside class="sidebar">
+    <img class="profile-pic" src="/assets/profile.gif" alt="mwshishi profile picture" />
+
+    <h1 class="name">mwshishi</h1>
+    <p class="subtitle">Passionate cybersec chud</p>
+
+    <nav class="nav-circles" aria-label="Main sections">
+      <a class="circle-link" href="#writeups">writeups</a>
+      <a class="circle-link" href="#projects">projects</a>
+      <a class="circle-link" href="#notes">notes</a>
+      <a class="circle-link" href="#aboutme">about me</a>
+    </nav>
+  </aside>
+
+  <main class="main">
+    <section id="writeups">
+      <h2>writeups</h2>
+      <p>Writeup content goes here.</p>
+    </section>
+
+    <section id="projects">
+      <h2>projects</h2>
+      <p>Project content goes here.</p>
+    </section>
+
+    <section id="notes">
+      <h2>notes</h2>
+      <p>Notes content goes here.</p>
+    </section>
+
+    <section id="aboutme">
+      <h2>about me</h2>
+      <p>About me content goes here.</p>
+    </section>
+  </main>
+</div>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="/assets/js/topbar-player.js" defer></script>
+</body>
+</html>

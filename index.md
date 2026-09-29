@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Legacy Home
+permalink: /legacy-home/
 ---
 
 # Nyaharro, Raluca here!
